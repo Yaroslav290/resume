@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    color: white;
+}
+
+.main {
+    background: url("https://img2.akspic.ru/crops/7/0/1/8/6/168107/168107-zemlya-luna-voshod_zemli-nebesnyj_obekt-atmosfera-3840x2160.jpg") no-repeat ;
+    width: 100vw;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.content{
+    /*width: 30vw;*/
+    /*height: 40vh;*/
+    margin-left: 7vw;
+}
+.content div {
+    margin-bottom:2vh ;
+}
+li{
+    list-style-type: none;
+}
+ul{
+    margin-left: 0;
+    padding-left: 0;
+    display: flex;
+}
+a{
+    margin-right: 1vw;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s;
+
+}
+a:hover{
+    color: red;
+}
+.links a{
+    display: inline-block;
+    padding: 6px;
+    background-color:gray;
+    border-radius: 50%;
+    font-size: 0;
+}
+.links img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.addition{
+    margin-top: 4vh;
+}
+.text{
+    font-size: 20px;
+}
+.navigation a:hover{
+    border-bottom: 1px solid red;
+
+}
